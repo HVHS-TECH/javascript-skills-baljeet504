@@ -8,12 +8,14 @@ console.log("Running t02_variables.js")
 let userName='nehan';
 let userAge=14;
 let userMoney=0;
+let userYear=2026;
 /***************************
 Main code
 ****************************/
 console.log(userName);
 console.log(userAge);
 console.log(userMoney);
+console.log(userYear);
 /****************************
  function
  ****************************/
