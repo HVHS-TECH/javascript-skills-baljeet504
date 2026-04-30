@@ -9,6 +9,7 @@ let userName='nehan';
 let userAge=14;
 let userMoney=0;
 let userYear=2026;
+let userNum=
 /***************************
 Main code
 ****************************/
@@ -19,7 +20,8 @@ console.log(userYear);
 
 console.log('Users name is '+ userName)
 console.log('Users age is '+ userAge)
-console.log(33.5+33.5);
+console.log(2+2);
+console.log(userNum)
 /****************************
  function
  ****************************/
