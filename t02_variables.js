@@ -18,7 +18,7 @@ console.log(userMoney);
 console.log(userYear);
 
 console.log('Users name is '+ userName)
-console.log('Users age is'+ userAge)
+console.log('Users age is '+ userAge)
 /****************************
  function
  ****************************/
