@@ -19,6 +19,7 @@ console.log(userYear);
 
 console.log('Users name is '+ userName)
 console.log('Users age is '+ userAge)
+console.log(33.5+33.5);
 /****************************
  function
  ****************************/
