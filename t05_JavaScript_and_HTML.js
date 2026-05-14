@@ -1,1 +1,1 @@
-const OUTPUT = document.getElementById(
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
