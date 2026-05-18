@@ -1,5 +1,5 @@
 
 function displayWelcome(_price){
-  OUTPUT.innerHTML += "<p>sum like that</p>";
+  OUTPUT.innerHTML += "<p>"welcome to gubland "+_price</p>";
 }
 writeLine()
