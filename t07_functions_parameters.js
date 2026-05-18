@@ -1,6 +1,5 @@
 
-function displaywelcome(){
-  const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+function displayWelcome(_name){
   OUTPUT.innerHTML += "<p>sum like that</p>";
 }
 writeLine()
