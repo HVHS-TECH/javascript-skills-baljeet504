@@ -1,7 +1,6 @@
 
 function displayProduct(_name,_price){
-  OUTPUT.innerHTML += "<p>"welcome to gubland "+_price</p>";
-  console.log(`{_name}: {_price}`);
+  OUTPUT.innerHTML += "<p>"gubland"</p>";
 }
 }
 
