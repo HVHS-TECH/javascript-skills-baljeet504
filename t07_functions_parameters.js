@@ -1,7 +1,6 @@
 
 function displayProduct(_name,_price){
-  OUTPUT.innerHTML += "<p>""</p>";
-}
+  OUTPUT.innerHTML += "<p>" + _name + " costs £" + _price + "</p>";
 }
 
 displayProduct("Chocolate bar", 4);
