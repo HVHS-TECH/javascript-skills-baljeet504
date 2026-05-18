@@ -1,6 +1,6 @@
 
 function displayProduct(_name,_price){
-  OUTPUT.innerHTML += "<p>"spaceForJavaScriptOutput"</p>";
+  OUTPUT.innerHTML += "<p>""</p>";
 }
 }
 
