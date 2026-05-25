@@ -44,5 +44,5 @@ writeLine()
 function start(){
     spaceForJavaScriptOutput.innerHTML
 spaceForJavaScriptOutput.innerHTML 
-answer = user userNum - user year
-spaceForJavaScriptOutput.innerHTML
+answer =  userNum - userAge
+spaceForJavaScriptOutput.innerHTML += "<p>the answer is " + answer + "</p>"
