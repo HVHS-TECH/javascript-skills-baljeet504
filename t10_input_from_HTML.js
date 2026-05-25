@@ -50,9 +50,4 @@ OUTPUT.innerHTML += `
   </form>
 `;
 
-function getFormInput() {
-  const nameField = document.getElementById("nameField");
-  const name = nameField ? nameField.value : "";
-  OUTPUT.innerHTML += `<p>Input value: ${name}</p>`;
-  return false;
-}
+
