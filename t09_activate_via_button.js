@@ -7,4 +7,6 @@ writeLine()
 
 
 function start(){
-    spaceForJavaScriptOutput
+    spaceForJavaScriptOutput.innerHTML
+spaceForJavaScriptOutput.innerHTML 
+answer =
