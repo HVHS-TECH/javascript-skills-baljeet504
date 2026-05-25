@@ -43,11 +43,5 @@ function writeLine(){
 }
 writeLine()
 
-OUTPUT.innerHTML += `
-  <form onsubmit="return false;">
-    <input type="text" id="nameField">
-    <input type="submit" onclick="getFormInput()">
-  </form>
-`;
 
 
