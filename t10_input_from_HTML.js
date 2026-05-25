@@ -34,14 +34,25 @@ console.log("multiply",  userOthernum*userNum);
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 
-OUTPUT.innerHTML = "<h2>gubby</h2";function writeLine(){
+OUTPUT.innerHTML = "<h2>gubby</h2>";
+
+function writeLine(){
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
   
   OUTPUT.innerHTML += "<p>sum like that</p>";
 }
 writeLine()
 
-<form onsubmit="return false;">
-  <input type="text" id="nameField">
-  <input type="submit" onClick=getFormInput()>
-</form>
+OUTPUT.innerHTML += `
+  <form onsubmit="return false;">
+    <input type="text" id="nameField">
+    <input type="submit" onclick="getFormInput()">
+  </form>
+`;
+
+function getFormInput() {
+  const nameField = document.getElementById("nameField");
+  const name = nameField ? nameField.value : "";
+  OUTPUT.innerHTML += `<p>Input value: ${name}</p>`;
+  return false;
+}
