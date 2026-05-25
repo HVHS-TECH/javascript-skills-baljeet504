@@ -45,4 +45,4 @@ function start(){
     spaceForJavaScriptOutput.innerHTML
 spaceForJavaScriptOutput.innerHTML 
 answer =  userNum - userAge
-spaceForJavaScriptOutput.innerHTML += "<p>the answer is " + answer + "</p>"
+spaceForJavaScriptOutput.innerHTML 
