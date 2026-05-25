@@ -40,3 +40,8 @@ OUTPUT.innerHTML = "<h2>gubby</h2";function writeLine(){
   OUTPUT.innerHTML += "<p>sum like that</p>";
 }
 writeLine()
+
+<form onsubmit="return false;">
+  <input type="text" id="nameField">
+  <input type="submit" onClick=getFormInput()>
+</form>
