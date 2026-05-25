@@ -44,5 +44,5 @@ writeLine()
 function start(){
     spaceForJavaScriptOutput.innerHTML
 spaceForJavaScriptOutput.innerHTML 
-answer = current year - user year
+answer = user userNum - user year
 spaceForJavaScriptOutput.innerHTML
