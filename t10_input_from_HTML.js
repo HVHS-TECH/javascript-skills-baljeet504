@@ -34,7 +34,7 @@ console.log("multiply",  userOthernum*userNum);
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput")
 
-OUTPUT.innerHTML = "<h2>gubby</h2>";
+OUTPUT.innerHTML = "<h2>name</h2>";
 
 function writeLine(){
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
