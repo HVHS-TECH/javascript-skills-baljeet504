@@ -49,3 +49,4 @@ function getFormInput(){
   OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
 }
 
+let userAge = Number(AGE_FIELD.value);
