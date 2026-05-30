@@ -63,3 +63,6 @@ let moneyNumber = Number(moneyString);
 let money = Number(money.value);
 }
 
+if (money < 4){
+    console.log()
+}
