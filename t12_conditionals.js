@@ -69,4 +69,7 @@ if (money < 4){
 
 if (money > 4){
     console.log(might be to much)
+
 }
+
+if (money = 4) 
