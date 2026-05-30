@@ -72,4 +72,7 @@ if (money > 4){
 
 }
 
-if (money = 4) 
+if (money = 4){
+    console.log(just right)
+
+}
