@@ -43,11 +43,15 @@ function writeLine(){
 }
 writeLine()
 
-function getFormInput(){
+function USERNAME(){
   const NAME_FIELD = document.getElementById("nameField");
   let userName = NAME_FIELD.value;
   OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
 }
 
-let userAgeString = AGE_FIELD.value;
+function getAGE(){
+const AGE = document.getElementById("ageField");  
+let userAgeString = AGE.value;
 let userAgeNumber = Number(userAgeString);
+let userAge = Number(AGE.value);
+}

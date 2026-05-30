@@ -49,4 +49,8 @@ function getFormInput(){
   OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
 }
 
+function getFormInput(){
+
+const AGE = document.getElementById("AGE");
+let userAge = AGE.value;
 
