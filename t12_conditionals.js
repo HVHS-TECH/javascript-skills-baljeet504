@@ -60,5 +60,5 @@ function money(){
 const money = money.value;
 let moneyString =  money.value;
 let moneyNumber = Number(moneyString);
-
+let money = Number(money.value);
 }
