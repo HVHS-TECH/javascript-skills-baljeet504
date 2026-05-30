@@ -64,5 +64,9 @@ let money = Number(money.value);
 }
 
 if (money < 4){
-    console.log()
+    console.log(need more money)
+}
+
+if (money > 4){
+    console.log(might be to much)
 }
