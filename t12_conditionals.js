@@ -55,3 +55,8 @@ let userAgeString = AGE.value;
 let userAgeNumber = Number(userAgeString);
 let userAge = Number(AGE.value);
 }
+
+function money(){
+const money = money.value;
+let moneyString =     
+}
