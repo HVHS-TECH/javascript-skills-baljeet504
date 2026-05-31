@@ -77,6 +77,8 @@ if (money = 4){
 
 }
 
+
+
 function getmoney() {
     let moneyNumber = Number(document.getElementById("moneyField").value);
 
