@@ -77,3 +77,15 @@ if (money = 4){
 
 }
 
+function getmoney() {
+    let moneyNumber = Number(document.getElementById("moneyField").value);
+
+    let mondayPay = moneyNumber;
+    let tuesdayPay = moneyNumber * 2;
+
+    let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+    OUTPUT.innerHTML = "This week's pay:<br>";
+    OUTPUT.innerHTML += "Monday: " + mondayPay + "<br>";
+    OUTPUT.innerHTML += "Tuesday: " + tuesdayPay + "<br>";
+}
