@@ -91,3 +91,4 @@ function getmoney() {
     OUTPUT.innerHTML += "Monday: " + mondayPay + "<br>";
     OUTPUT.innerHTML += "Tuesday: " + tuesdayPay + "<br>";
 }
+
