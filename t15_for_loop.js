@@ -1,3 +1,3 @@
 for(let i=0; i<100; i++){
-  console.log("Current : "+i);
+  console.log(" : "+i);
 }
